@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle
+.idea
+build
+gradle
+log
+dashu/log
+target
+data-transfer.iml
+
+tool
+main/resources/dbconig
+main/resources/mybatisGenerator
