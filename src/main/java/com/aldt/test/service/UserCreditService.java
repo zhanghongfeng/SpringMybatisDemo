@@ -3,6 +3,8 @@ package com.aldt.test.service;
 import com.aldt.test.dao.domain.loandb.UserCreditRisk;
 import com.aldt.test.dao.domain.loandb.UserCreditRiskCriteria;
 import com.aldt.test.dao.mapper.loandb.UserCreditRiskMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,6 +16,7 @@ import java.util.List;
  */
 @Service
 public class UserCreditService {
+    private static final Logger logger = LoggerFactory.getLogger(UserCreditService.class);
     @Autowired
     private UserCreditRiskMapper userCreditRiskMapper;
 

@@ -50,4 +50,8 @@ public interface CollectionCaseMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(CollectionCase record);
+
+
+    CollectionCase selectLastCaseByUserId(Integer userId);
+
 }
